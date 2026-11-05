@@ -1,0 +1,6 @@
+{
+  "name": "Vision Bangla AI - The Synthoid Saviour",
+  "description": "A satirical meme portal showcasing Vision Bangla AI saving Bangladesh's economy, catching lies, eliminating government office corruption, and untangling Dhaka's traffic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

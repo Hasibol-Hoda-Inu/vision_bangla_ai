@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Hind Siliguri', 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #060913;
+    color: #f1f5f9;
+    overflow-x: hidden;
+    margin: 0;
+  }
+}
+
+/* Synthoid glow effects and comic scanlines */
+.font-bangla-serif {
+  font-family: 'Tiro Bangla', Georgia, serif;
+}
+
+.vision-glow-amber {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.35), inset 0 0 15px rgba(245, 158, 11, 0.2);
+}
+
+.vision-glow-cyan {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.35), inset 0 0 15px rgba(6, 182, 212, 0.2);
+}
+
+.vision-glow-emerald {
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.35), inset 0 0 15px rgba(16, 185, 129, 0.2);
+}
+
+.comic-border {
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.8);
+}
+
+.comic-border-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px rgba(6, 182, 212, 0.6);
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.8));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 20px rgba(245, 158, 11, 1));
+  }
+}
+
+.animate-mind-stone {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090d1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0ea5e9;
+}
