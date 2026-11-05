@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Gavel, Search, Activity } from 'lucide-react';
+import courtroomImage from '../assets/images/vision_court_justice_1793902912074.jpg';
 import { evaluateTruthBeam, TruthBeamResult } from '../utils/memeRules';
 
 export const TruthBeamCourtroom: React.FC = () => {
@@ -50,7 +51,7 @@ export const TruthBeamCourtroom: React.FC = () => {
           <div className="lg:col-span-5 rounded-2xl overflow-hidden comic-border bg-slate-900">
             <div className="relative aspect-[4/3] bg-slate-950">
               <img
-                src="/src/assets/images/vision_court_justice_1793902912074.jpg"
+                src={courtroomImage}
                 alt="Vision Bangla AI in Supreme Court with Truth Beam"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

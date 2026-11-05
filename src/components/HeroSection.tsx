@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShieldCheck, Zap, Scale, AlertCircle } from 'lucide-react';
+import heroImage from '../assets/images/hero_vision_bangla_1793902907830.jpg';
 import { VisionSynthoidCore3D } from './VisionSynthoidCore3D';
 
 export const HeroSection: React.FC = () => {
@@ -73,7 +74,7 @@ export const HeroSection: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden comic-border bg-slate-900 shadow-2xl">
               <img
-                src="/src/assets/images/hero_vision_bangla_1793902907830.jpg"
+                src={heroImage}
                 alt="Vision Bangla AI hovering over futuristic Dhaka skyline"
                 referrerPolicy="no-referrer"
                 className="w-full h-72 sm:h-96 object-cover opacity-90 hover:opacity-100 transition-opacity"

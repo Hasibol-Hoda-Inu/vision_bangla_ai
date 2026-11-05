@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Compass, Zap } from 'lucide-react';
+import trafficImage from '../assets/images/vision_traffic_clean_1793905215091.jpg';
 import { calculateTrafficFlow } from '../utils/memeRules';
 
 export const TrafficControllerMatrix: React.FC = () => {
@@ -134,7 +135,7 @@ export const TrafficControllerMatrix: React.FC = () => {
           <div className="lg:col-span-5 rounded-2xl overflow-hidden comic-border bg-slate-900">
             <div className="relative aspect-[4/3] bg-slate-950">
               <img
-                src="/src/assets/images/vision_traffic_clean_1793905215091.jpg"
+                src={trafficImage}
                 alt="Vision Bangla AI controlling Dhaka traffic and battery rickshaws"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

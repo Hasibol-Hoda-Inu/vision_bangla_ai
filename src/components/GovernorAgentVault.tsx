@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { DollarSign, Landmark, Sparkles, Award, Check } from 'lucide-react';
+import governorImage from '../assets/images/vision_governor_bank_1793902908727.jpg';
 import { calculateEconomicStabilization } from '../utils/memeRules';
 
 export const GovernorAgentVault: React.FC = () => {
@@ -174,7 +175,7 @@ export const GovernorAgentVault: React.FC = () => {
           <div className="lg:col-span-5 rounded-2xl overflow-hidden comic-border bg-slate-900">
             <div className="relative aspect-[4/3] bg-slate-950">
               <img
-                src="/src/assets/images/vision_governor_bank_1793902908727.jpg"
+                src={governorImage}
                 alt="Vision Bangla AI as Central Bank Governor"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

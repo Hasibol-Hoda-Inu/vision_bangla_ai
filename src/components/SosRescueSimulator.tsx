@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ShieldCheck, Send, Sparkles, User, Cpu, CheckCircle } from 'lucide-react';
+import rescueImage from '../assets/images/vision_girl_clean_1793905217068.jpg';
 import { processSosReport } from '../utils/memeRules';
 
 export const SosRescueSimulator: React.FC = () => {
@@ -128,7 +129,7 @@ export const SosRescueSimulator: React.FC = () => {
               {/* Comic Artwork */}
               <div className="relative aspect-[4/3] bg-slate-950">
                 <img
-                  src="/src/assets/images/vision_girl_clean_1793905217068.jpg"
+                  src={rescueImage}
                   alt="Vision Bangla AI saves a girl from stalkers in Mohammadpur alleyway"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"

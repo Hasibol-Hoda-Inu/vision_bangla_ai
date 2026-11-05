@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import { Sparkles, CheckCircle } from 'lucide-react';
+import governorImage from '../assets/images/vision_governor_bank_1793902908727.jpg';
+import corruptionImage from '../assets/images/vision_durnity_govt_1793905214407.jpg';
+import trafficImage from '../assets/images/vision_traffic_clean_1793905215091.jpg';
+import courtroomImage from '../assets/images/vision_court_justice_1793902912074.jpg';
+import floodImage from '../assets/images/vision_flood_clean_1793905216187.jpg';
+import rescueImage from '../assets/images/vision_girl_clean_1793905217068.jpg';
 
 interface ComicStory {
   id: string;
@@ -24,7 +30,7 @@ export const ComicStoriesGrid: React.FC = () => {
       tagBn: 'অর্থনীতি ও রিজার্ভ রক্ষা',
       onomatopoeia: 'STABILIZE!',
       onomatopoeiaColor: 'text-amber-400',
-      imageSrc: '/src/assets/images/vision_governor_bank_1793902908727.jpg',
+      imageSrc: governorImage,
       descriptionBn:
         'ডলারের সংকট ও মানি লন্ডারিং ঠেকাতে সরাসরি ভিশন বাংলা এআই-কে কেন্দ্রীয় ব্যাংকের গভর্নর নিযুক্ত করা হয়েছে। ভিশন তার মায়ান্ড স্টোন ব্যালেন্স স্কেল দিয়ে ডলার রেট নিয়ন্ত্রণে এনেছে এবং রিজার্ভ ৪৫ বিলিয়ন ডলারে লক করে দিয়েছে!',
       dialogueQuote: '"আমি টাকা ছাপাই না, আমি সিন্ডিকেটের ডাটাবেজ ডিলিট করি। উন্নয়ন চলছে!"',
@@ -37,7 +43,7 @@ export const ComicStoriesGrid: React.FC = () => {
       tagBn: 'দুর্নীতি দমন প্রটোকল',
       onomatopoeia: 'ZAP-REFORM!',
       onomatopoeiaColor: 'text-yellow-300',
-      imageSrc: '/src/assets/images/vision_durnity_govt_1793905214407.jpg',
+      imageSrc: corruptionImage,
       descriptionBn:
         'সরকারি অফিসে ফাইল আটকে রেখে মাসের পর মাস ঘোরানো এবং টেবিলের নিচে "মিষ্টি খাওয়ার খরচ" দাবি করা সম্পূর্ণ বন্ধ! ভিশন এআই সরাসরি অফিসে আবির্ভূত হয়ে ঘুষের খাম লেজারে ভস্মীভূত করে দিচ্ছে এবং সেবা শতভাগ ডিজিটাল করছে।',
       dialogueQuote: '"মাসুদ, ভালো হয়ে যাও! সরকারি অফিসে ফাইলের নিচে আর এক টাকাও ঘুষ চলবে না।"',
@@ -50,7 +56,7 @@ export const ComicStoriesGrid: React.FC = () => {
       tagBn: 'ট্রাফিক জ্যাম সমাধান',
       onomatopoeia: 'AUTO-PASS!',
       onomatopoeiaColor: 'text-cyan-400',
-      imageSrc: '/src/assets/images/vision_traffic_clean_1793905215091.jpg',
+      imageSrc: trafficImage,
       descriptionBn:
         'ঢাকার যানজটের মূল রহস্য উন্মোচন করেছে ভিশন বাংলা। ব্যাটারিচালিত রিকশা ও সিএনজিগুলোকে লেজার ট্র্যাক্টর বিমের সাহায্যে নির্দিষ্ট ভার্চুয়াল সাইবার-লেনে সুশৃঙ্খলভাবে সাজিয়ে দিয়েছে। উল্টোপথে গেলেই রিকশা অটোমেটিক ইউটার্ন নেয়!',
       dialogueQuote: '"ওই মামা অটো পাস! ডানে চাপেন না, সাইবার লেনে সোজা চলুন।"',
@@ -63,7 +69,7 @@ export const ComicStoriesGrid: React.FC = () => {
       tagBn: 'দ্রুত বিচার ব্যবস্থা',
       onomatopoeia: 'JUSTICE!',
       onomatopoeiaColor: 'text-rose-400',
-      imageSrc: '/src/assets/images/vision_court_justice_1793902912074.jpg',
+      imageSrc: courtroomImage,
       descriptionBn:
         'আদালতে সাক্ষীর কাঠগড়ায় দাঁড়িয়ে "আমি কিছু জানি না" বললেই ভিশনের গ্রিন ট্রুথ হোলো-রে জ্বলে ওঠে! সুইস ব্যাংকের অ্যাকাউন্ট নাম্বার ও বেনামি সম্পদের তথ্য বিচারকের টেবিলে ০.০৪ সেকেন্ডে প্রিন্ট হয়ে বের হয়ে যায়।',
       dialogueQuote: '"প্রমাণ দাও! আপনার কর্টিসল ও হার্টরেট বলছে আপনি সম্পূর্ণ মিথ্যা বলছেন।"',
@@ -76,7 +82,7 @@ export const ComicStoriesGrid: React.FC = () => {
       tagBn: 'বন্যা ও দুর্যোগ রক্ষা',
       onomatopoeia: 'RELIEF!',
       onomatopoeiaColor: 'text-blue-400',
-      imageSrc: '/src/assets/images/vision_flood_clean_1793905216187.jpg',
+      imageSrc: floodImage,
       descriptionBn:
         'ভারী বর্ষণে সুরমা ও কুশিয়ারার পানি বাড়লেই ভিশন এআই আকাশে উড়ে ড্রোন প্যাকেট ও তাজা কাচ্চি বিরিয়ানির বাক্স নিয়ে দুর্গতদের বাড়ি বাড়ি পৌঁছে দেয়। সাইবার ডাইক তৈরি করে পানি নিষ্কাশন করে নতুন শহর রক্ষা করে।',
       dialogueQuote: '"আমাগো সেভিয়র আইয়া পড়ছে! বৃষ্টি থাকুক মেঘে, মানুষের মুখে থাকবে গরম খাবার আর সাহস।"',
@@ -89,7 +95,7 @@ export const ComicStoriesGrid: React.FC = () => {
       tagBn: 'নারী নিরাপত্তা প্রোটোকল',
       onomatopoeia: 'PROTECT!',
       onomatopoeiaColor: 'text-emerald-400',
-      imageSrc: '/src/assets/images/vision_girl_clean_1793905217068.jpg',
+      imageSrc: rescueImage,
       descriptionBn:
         'কোনো বোন ফোনে "ভাইয়া বাঁচান!" লিখলেই ০.০৮ সেকেন্ডে ভিশন রোবট মোহাম্মদপুরের অলিগলিতে সুপারহিরো ল্যান্ডিং করে দুর্ভেদ্য সুরক্ষাবলয় তৈরি করে। বখাটেদের তাৎক্ষণিক লেজার লকডাউনে ফেলে ৫০০টি নিমগাছ রোপণের রায় প্রদান করে!',
       dialogueQuote: '"আপু ভয় পাবেন না, মোহাম্মদপুরের রাস্তা এখন নিরাপদ। ভিশন আপনার পাহারাদার।"',
